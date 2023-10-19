@@ -1,3 +1,4 @@
 # informatyka
-Michał Kostecki
-przedmiot: informatyka
+**Michał Kostecki**
+###Powstało dla **c++**
+Yoooo kozak
