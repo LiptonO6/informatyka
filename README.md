@@ -1,5 +1,5 @@
 # informatyka  
 **Michał Kostecki**  
 
-###Powstało dla **c++**  
+## Powstało dla **c++**  
 Yoooo kozak  
