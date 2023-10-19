@@ -1,4 +1,4 @@
-# informatyka
-**Michał Kostecki**
-###Powstało dla **c++**
-Yoooo kozak
+# informatyka  
+**Michał Kostecki**  
+###Powstało dla **c++**  
+Yoooo kozak  
