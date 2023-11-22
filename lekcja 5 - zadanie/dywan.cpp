@@ -13,7 +13,7 @@ cin >> wysokosc;
 		for(int j = 0; j < szerokosc; j++){
 			if(i == 0 || i == wysokosc - 1)cout << "-";
 			else if(j == 0 || j == szerokosc - 1)cout << "|";
-			else if()cout <<"*";
+			else if((i+j)%2 == 0)cout <<"*";
 			else cout << "#";
 		}
 		cout << endl;
