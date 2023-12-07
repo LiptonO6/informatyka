@@ -7,11 +7,12 @@ for(int i=0; i <5; i++)
 {
     cin >> liczba[ i ];
 }
-cout << "Liczby podzielne przez 2: ";
+cout << "Liczby ujemne na 0: ";
 for(int i=0; i <5; i++)
 {
-	if(liczba[ i ] %2==0 ){
-	cout << liczba[ i ] << ", ";
+	if(liczba[ i ] <= 0){
+	cout << "0" << ", ";
 }
+else cout << liczba[ i ] << ", ";
 }
 }
