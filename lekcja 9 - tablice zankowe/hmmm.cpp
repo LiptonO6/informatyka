@@ -1,35 +1,14 @@
-#include <iostream>
-#include <cstring>
+#include<iostream>
+using namespace std;
 
-int main() {
-    const int maxLength = 100;
-    char nameSurname[maxLength];
-
-    // Pobieranie imienia i nazwiska od użytkownika
-    std::cout << "Twoje dane osobowe: ";
-    std::cin.getline(nameSurname, maxLength);
-
-    // Znajdowanie pozycji znaku spacji
-    int spaceIndex = -1;
-    for (int i = 0; i < maxLength && nameSurname[i] != '\0'; ++i) {
-        if (nameSurname[i] == ' ') {
-            spaceIndex = i;
-            break;
-        }
-    }
-
-    // Znajdowanie pozycji znaku końca tekstu (\0)
-    int nullIndex = -1;
-    for (int i = 0; i < maxLength; ++i) {
-        if (nameSurname[i] == '\0') {
-            nullIndex = i;
-            break;
-        }
-    }
-
-    // Wyświetlanie indeksów znaku spacji i znaku końca tekstu
-    std::cout << "Pozycja spacji: " << spaceIndex << std::endl;
-    std::cout << "Pozycja końca: " << nullIndex << std::endl;
+int main()
+{
+    char tablica[100];
+    cout<<"Podaj imie i nazwisko: "; 
+    cin.getline(tablica,100);
+    cout<<"Twoje dane osobowe: "<<tablica<<endl;
+    
+    int spacja = -1
 
     return 0;
 }
